@@ -56,7 +56,7 @@ body{
 
 .nav a{
   text-decoration:none;
-  color:rgb(148, 148, 148);
+  color:rgb(0, 0, 0);
   background: rgb(0, 0, 0);
   padding:10px 14px;
   border-radius:12px;
@@ -75,7 +75,7 @@ body{
   align-items:center;
   gap:30px;
   padding:50px 25px;
-  background: linear-gradient(135deg, #006eff, #ffffff);
+  background: linear-gradient(135deg, #006eff, #0044ff);
 }
 
 .hero-texto h2{
