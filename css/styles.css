@@ -56,8 +56,8 @@ body{
 
 .nav a{
   text-decoration:none;
-  color:rgb(119, 119, 119);
-  background: rgba(255,255,255,0.15);
+  color:rgb(0, 110, 255);
+  background: rgb(0, 89, 255);
   padding:10px 14px;
   border-radius:12px;
   font-weight:bold;
@@ -65,7 +65,7 @@ body{
 }
 
 .nav a:hover{
-  background: rgba(255,255,255,0.28);
+  background: rgb(0, 109, 252);
 }
 
 .hero{
@@ -75,12 +75,12 @@ body{
   align-items:center;
   gap:30px;
   padding:50px 25px;
-  background: linear-gradient(135deg, #555555, #555555);
+  background: linear-gradient(135deg, #006eff, #006eff);
 }
 
 .hero-texto h2{
   font-size:3rem;
-  color:#e34f26;
+  color:#ffffff;
   margin-bottom:15px;
 }
 
@@ -88,13 +88,13 @@ body{
   line-height:1.7;
   font-size:1.05rem;
   margin-bottom:20px;
-  color:#333;
+  color:#0042f8;
 }
 
 .badge{
   display:inline-block;
-  background:#e34f26;
-  color:rgb(87, 87, 87);
+  background:#ffffff;
+  color:rgb(0, 47, 255);
   padding:8px 14px;
   border-radius:999px;
   margin-bottom:15px;
@@ -104,8 +104,8 @@ body{
 .btn{
   display:inline-block;
   text-decoration:none;
-  background:#2d2d2d;
-  color:rgb(250, 79, 0);
+  background:#0051ff;
+  color:rgb(255, 255, 255);
   padding:12px 20px;
   border-radius:12px;
   font-weight:bold;
@@ -134,25 +134,25 @@ body{
   background:white;
   border-radius:22px;
   padding:25px;
-  box-shadow:0 8px 20px rgba(0,0,0,0.08);
-  border-left:8px solid #e34f26;
+  box-shadow:0 8px 20px rgb(0, 60, 255);
+  border-left:8px solid #f0f0f0;
 }
 
 .card h2{
-  color:#e34f26;
+  color:#fcfcfc;
   margin-bottom:15px;
   font-size:2rem;
 }
 
 .card h3{
-  color:#e34f26;
+  color:#ebebeb;
   margin-bottom:10px;
 }
 
 .card p,
 .card li{
   line-height:1.7;
-  color:#333;
+  color:#0043fc;
 }
 
 .card img{
@@ -202,13 +202,13 @@ body{
 .demo-form textarea{
   width:100%;
   padding:12px;
-  border:1px solid #ccc;
+  border:1px solid #0011ff;
   border-radius:12px;
 }
 
 .demo-form button{
   border:none;
-  background:#e34f26;
+  background:#e7e7e7;
   color:white;
   padding:12px;
   border-radius:12px;
@@ -217,7 +217,7 @@ body{
 }
 
 .footer{
-  background:#2d2d2d;
+  background:#0066ff;
   color:white;
   text-align:center;
   padding:18px;
