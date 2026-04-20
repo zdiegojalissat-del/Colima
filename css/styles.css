@@ -18,7 +18,7 @@ body{
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(135deg, #e34f26, #f16529);
+  background: linear-gradient(135deg, #003cff, #ffffff);
   color: white;
   padding: 18px 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.25);
@@ -80,7 +80,7 @@ body{
 
 .hero-texto h2{
   font-size:3rem;
-  color:#e34f26;
+  color:#0044ff;
   margin-bottom:15px;
 }
 
@@ -88,12 +88,12 @@ body{
   line-height:1.7;
   font-size:1.05rem;
   margin-bottom:20px;
-  color:#333;
+  color:#0d11e0;
 }
 
 .badge{
   display:inline-block;
-  background:#e34f26;
+  background:#2668e3;
   color:white;
   padding:8px 14px;
   border-radius:999px;
@@ -135,17 +135,17 @@ body{
   border-radius:22px;
   padding:25px;
   box-shadow:0 8px 20px rgba(0,0,0,0.08);
-  border-left:8px solid #e34f26;
+  border-left:8px solid #0400fd;
 }
 
 .card h2{
-  color:#e34f26;
+  color:#0021dd;
   margin-bottom:15px;
   font-size:2rem;
 }
 
 .card h3{
-  color:#e34f26;
+  color:#0026ff;
   margin-bottom:10px;
 }
 
@@ -208,7 +208,7 @@ body{
 
 .demo-form button{
   border:none;
-  background:#e34f26;
+  background:#0044ff;
   color:white;
   padding:12px;
   border-radius:12px;
