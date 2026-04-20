@@ -1,4 +1,4 @@
-*{
+{
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -18,10 +18,10 @@ body{
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(135deg, #195cb3, #f8f5f5);
-  color: rgb(247, 247, 247);
+  background: linear-gradient(135deg, #e34f26, #f16529);
+  color: white;
   padding: 18px 20px;
-  box-shadow: 0 4px 15px rgb(0, 81, 255);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
 
 .logo{
@@ -35,7 +35,7 @@ body{
   width:60px;
   height:60px;
   object-fit:contain;
-  background:rgb(0, 0, 0);
+  background:white;
   border-radius:14px;
   padding:8px;
 }
@@ -56,8 +56,8 @@ body{
 
 .nav a{
   text-decoration:none;
-  color:rgb(0, 0, 0);
-  background: rgb(0, 0, 0);
+  color:white;
+  background: rgba(255,255,255,0.15);
   padding:10px 14px;
   border-radius:12px;
   font-weight:bold;
@@ -65,7 +65,7 @@ body{
 }
 
 .nav a:hover{
-  background: rgb(0, 109, 252);
+  background: rgba(255,255,255,0.28);
 }
 
 .hero{
@@ -75,12 +75,12 @@ body{
   align-items:center;
   gap:30px;
   padding:50px 25px;
-  background: linear-gradient(135deg, #006eff, #0044ff);
+  background: linear-gradient(135deg, #fff3ef, #ffffff);
 }
 
 .hero-texto h2{
   font-size:3rem;
-  color:#003cff;
+  color:#e34f26;
   margin-bottom:15px;
 }
 
@@ -88,13 +88,13 @@ body{
   line-height:1.7;
   font-size:1.05rem;
   margin-bottom:20px;
-  color:#0042f8;
+  color:#333;
 }
 
 .badge{
   display:inline-block;
-  background:#ffffff;
-  color:rgb(0, 47, 255);
+  background:#e34f26;
+  color:white;
   padding:8px 14px;
   border-radius:999px;
   margin-bottom:15px;
@@ -104,8 +104,8 @@ body{
 .btn{
   display:inline-block;
   text-decoration:none;
-  background:#0051ff;
-  color:rgb(255, 255, 255);
+  background:#2d2d2d;
+  color:white;
   padding:12px 20px;
   border-radius:12px;
   font-weight:bold;
@@ -134,25 +134,25 @@ body{
   background:white;
   border-radius:22px;
   padding:25px;
-  box-shadow:0 8px 20px rgb(0, 60, 255);
-  border-left:8px solid #f0f0f0;
+  box-shadow:0 8px 20px rgba(0,0,0,0.08);
+  border-left:8px solid #e34f26;
 }
 
 .card h2{
-  color:#fcfcfc;
+  color:#e34f26;
   margin-bottom:15px;
   font-size:2rem;
 }
 
 .card h3{
-  color:#ebebeb;
+  color:#e34f26;
   margin-bottom:10px;
 }
 
 .card p,
 .card li{
   line-height:1.7;
-  color:#0043fc;
+  color:#333;
 }
 
 .card img{
@@ -164,7 +164,7 @@ body{
 
 .codigo{
   background:#1f1f1f;
-  color:rgb(0, 0, 0);
+  color:white;
   padding:18px;
   border-radius:14px;
   margin:18px 0;
@@ -195,20 +195,20 @@ body{
 
 .demo-form label{
   font-weight:bold;
-  color:#000000;
+  color:#333;
 }
 
 .demo-form input,
 .demo-form textarea{
   width:100%;
   padding:12px;
-  border:1px solid #0011ff;
+  border:1px solid #ccc;
   border-radius:12px;
 }
 
 .demo-form button{
   border:none;
-  background:#e7e7e7;
+  background:#e34f26;
   color:white;
   padding:12px;
   border-radius:12px;
@@ -217,7 +217,7 @@ body{
 }
 
 .footer{
-  background:#0066ff;
+  background:#2d2d2d;
   color:white;
   text-align:center;
   padding:18px;
