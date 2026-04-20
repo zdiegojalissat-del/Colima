@@ -164,7 +164,7 @@ body{
 
 .codigo{
   background:#1f1f1f;
-  color:white;
+  color:rgb(0, 0, 0);
   padding:18px;
   border-radius:14px;
   margin:18px 0;
@@ -195,7 +195,7 @@ body{
 
 .demo-form label{
   font-weight:bold;
-  color:#333;
+  color:#000000;
 }
 
 .demo-form input,
