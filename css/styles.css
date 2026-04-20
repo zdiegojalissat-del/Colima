@@ -21,7 +21,7 @@ body{
   background: linear-gradient(135deg, #195cb3, #f8f5f5);
   color: rgb(247, 247, 247);
   padding: 18px 20px;
-  box-shadow: 0 4px 15px rgb(0, 104, 241);
+  box-shadow: 0 4px 15px rgb(255, 255, 255);
 }
 
 .logo{
