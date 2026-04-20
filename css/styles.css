@@ -75,7 +75,7 @@ body{
   align-items:center;
   gap:30px;
   padding:50px 25px;
-  background: linear-gradient(135deg, #006eff, #006eff);
+  background: linear-gradient(135deg, #006eff, #ffffff);
 }
 
 .hero-texto h2{
