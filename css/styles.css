@@ -56,8 +56,8 @@ body{
 
 .nav a{
   text-decoration:none;
-  color:rgb(0, 110, 255);
-  background: rgb(0, 89, 255);
+  color:rgb(148, 148, 148);
+  background: rgb(0, 0, 0);
   padding:10px 14px;
   border-radius:12px;
   font-weight:bold;
